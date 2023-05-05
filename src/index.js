@@ -1,15 +1,9 @@
 import { createRoot } from 'react-dom/client';
-import NavBar from './components/NavBar';
-import Body from './components/Body';
+import App from './components/App';
+import { setupIonicReact } from '@ionic/react';
+import '@ionic/react/css/core.css';
 
-function App() {
-    return (
-        <div>
-            <NavBar />
-            <Body />
-        </div>
-    )
-}
+setupIonicReact();
 
 const root = createRoot(document.querySelector('.root'));
 root.render(<App />);
