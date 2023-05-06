@@ -26,7 +26,7 @@ export default function Post( props ) {
             </div>
 
             <div className="conteudo">
-                <img src={props.postSrc} alt={props.content} onClick={() => {
+                <img src={props.postSrc} alt={props.content} onDoubleClick={() => {
                     if (likeIcon === heartOutline) {
                         like();
                     }
