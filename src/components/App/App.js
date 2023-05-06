@@ -1,5 +1,5 @@
-import NavBar from './NavBar';
-import Body from './Body';
+import NavBar from '../NavBar/NavBar';
+import Body from '../Body/Body';
 
 
 export default function App() {
