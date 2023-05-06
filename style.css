@@ -1,10 +1,10 @@
 :root {
-	--ion-color-like: #fd4235;
+	--ion-color-like: red;
 	--ion-color-like-rgb: 253,66,53;
 	--ion-color-like-contrast: #ffffff;
 	--ion-color-like-contrast-rgb: 255,255,255;
-	--ion-color-like-shade: #df3a2f;
-	--ion-color-like-tint: #fd5549;
+	--ion-color-like-shade: red;
+	--ion-color-like-tint: red;
 }
 
 .ion-color-like {
