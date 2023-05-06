@@ -1,3 +1,21 @@
+:root {
+	--ion-color-like: #fd4235;
+	--ion-color-like-rgb: 253,66,53;
+	--ion-color-like-contrast: #ffffff;
+	--ion-color-like-contrast-rgb: 255,255,255;
+	--ion-color-like-shade: #df3a2f;
+	--ion-color-like-tint: #fd5549;
+}
+
+.ion-color-like {
+	--ion-color-base: var(--ion-color-like);
+	--ion-color-base-rgb: var(--ion-color-like-rgb);
+	--ion-color-contrast: var(--ion-color-like-contrast);
+	--ion-color-contrast-rgb: var(--ion-color-like-contrast-rgb);
+	--ion-color-shade: var(--ion-color-like-shade);
+	--ion-color-tint: var(--ion-color-like-tint);
+}
+
 * {
     box-sizing: border-box;
   }

@@ -1,12 +1,13 @@
+import React from "react";
 import Suggestions from "../Suggestions/Suggestions";
 import User from "./User"
 
-let userSrc = "assets/img/catanacomics.svg";
-let userName = "catanacomics";
-
 export default function SideBar() {
+    const [userSrc, setUserSrc] = React.useState("assets/img/catanacomics.svg");
+    const [userName, setUserName] = React.useState("catanacomics");
+
     return <div className="sidebar">
-        <User src={userSrc} userName={userName}/>
+        <User src={userSrc} userName={userName} setName={setUserName} setSrc={setUserSrc}/>
 
         <Suggestions />
 

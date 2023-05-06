@@ -2,15 +2,15 @@ import Post from "./Post";
 
 const posts = [{userSrc:"assets/img/meowed.svg", userName:"meowd",
                 postSrc:"assets/img/gato-telefone.svg", content:"gato-telefone", 
-                likeSrc:"assets/img/respondeai.svg", like:"respondeai", likeNbr:"101.523"},
+                likeSrc:"assets/img/respondeai.svg", like:"respondeai", likeNbr:"101523"},
                 {userSrc:"assets/img/barked.svg", userName:"barked",
                 postSrc:"assets/img/dog.svg", content:"dog", 
                 likeSrc:"assets/img/adorable_animals.svg", 
-                like:"adorable_animals", likeNbr:"99.159"},
+                like:"adorable_animals", likeNbr:"99159"},
                 {userSrc:"https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aphelios_20.jpg", userName:"Aphelios", 
                 postSrc:"https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aphelios_20.jpg", content:"Aphelios",
                 likeSrc:"assets/img/respondeai.svg", 
-                like:"respondeai", likeNbr:"01010101"}];
+                like:"respondeai", likeNbr:"10101010"}];
 
 export default function Posts() {
     return <div className="posts">
